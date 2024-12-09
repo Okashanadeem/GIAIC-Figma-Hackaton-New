@@ -22,9 +22,8 @@ export default function MobileNavbar() {
             <Link href="/shop" className="text-lg font-medium hover:underline">Shop</Link>
             <Link href="/about" className="text-lg font-medium hover:underline">About</Link>
             <Link href="/contact" className="text-lg font-medium hover:underline">Contact</Link>
+            <Link href="/account" className="text-lg font-medium hover:underline">My Account</Link>
           </div>
-          
-          <Link href="/account" className="text-lg font-medium hover:underline">My Account</Link>
         </SheetContent>
       </Sheet>
     </div>

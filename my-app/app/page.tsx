@@ -38,7 +38,7 @@ export default function Home() {
       </div>
 
       <div className="bg-[#FAF4F4]  md:h-[672px] h-auto flex flex-col md:flex-row justify-center items-center pb-20 md:justify-between md:gap-10">
-        <div className="w-full md:w-[605px] h-[562px] md:h-[562px] md:ml-24">
+        <div className="w-full md:w-[605px] h-[562px] md:h-[562px] md:ml-24 p-5">
           <Image
             src={tableItem}
             alt="Table Image"
@@ -48,7 +48,7 @@ export default function Home() {
           <p className="underline text-lg md:text-2xl mt-4 md:mt-10"><Link href="/shop" className="text-lg font-medium hover:underline">Shop Now</Link></p>
         </div>
 
-        <div className="w-full md:w-[605px] h-[562px] md:h-[562px] md:mr-24">
+        <div className="w-full md:w-[605px] h-[562px] md:h-[562px] md:mr-24 p-5">
           <Image
             src={sofaItem}
             alt="Sofa Image"
