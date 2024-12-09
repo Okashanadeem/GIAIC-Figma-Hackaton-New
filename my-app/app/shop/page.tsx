@@ -23,7 +23,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className='bg-[#FAF4F4] h-[100px] flex flex-col md:flex-row justify-between items-center px-4 md:px-8 lg:px-16 '>
+            <div className='bg-[#FAF4F4] md:h-[100px] h-auto py-5 flex flex-col md:flex-row justify-between items-center px-4 md:px-8 lg:px-16 '>
                 <div className='flex items-center gap-5 '>
                     <p className='flex gap-3'><SlidersHorizontal /> Filter</p>
                     <Grip />
@@ -51,18 +51,25 @@ const Page = () => {
                 <div className='w-[98px] h-[60px] bg-[#FFF9E5] flex justify-center items-center rounded-sm'><p>Next</p></div>
             </div>
 
-            <div className='flex gap-16 px-20 justify-center items-center bg-[#FAF4F4] md:h-[300px]'>
-                <div>
-                    <h1 className='text-xl font-bold'>Free Delivery</h1>
-                    <p className='text-[#9F9F9F]'>For all oders over $50, consectetur adipim scing elit.</p>
+                        {/* Info Section */}
+                        <div className="flex flex-col md:flex-row justify-center items-center gap-8 bg-[#FAF4F4] p-8 md:p-16">
+                <div className="text-center md:text-left">
+                    <h1 className="text-xl font-bold">Free Delivery</h1>
+                    <p className="text-[#9F9F9F] text-sm">
+                        For all orders over $50, consectetur adipiscing elit.
+                    </p>
                 </div>
-                <div>
-                    <h1  className='text-xl font-bold'>90 Days Return</h1>
-                    <p  className='text-[#9F9F9F'>For all oders over $50, consectetur adipim scing elit.</p>
+                <div className="text-center md:text-left">
+                    <h1 className="text-xl font-bold">90 Days Return</h1>
+                    <p className="text-[#9F9F9F] text-sm">
+                        For all orders over $50, consectetur adipiscing elit.
+                    </p>
                 </div>
-                <div>
-                    <h1  className='text-xl font-bold'>Secure Payment clas</h1>
-                    <p  className='text-[#9F9F9F'>For all oders over $50, consectetur adipim scing elit.</p>
+                <div className="text-center md:text-left">
+                    <h1 className="text-xl font-bold">Secure Payment</h1>
+                    <p className="text-[#9F9F9F] text-sm">
+                        For all orders over $50, consectetur adipiscing elit.
+                    </p>
                 </div>
             </div>
 

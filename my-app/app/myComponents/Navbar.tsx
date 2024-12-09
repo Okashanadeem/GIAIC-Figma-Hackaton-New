@@ -24,7 +24,7 @@ const Navbar = () => {
 
           {/* Icons Section */}
           <div className="flex gap-16 h-[28px] mr-16">
-            <UserX />
+          <Link href="/account" className="text-lg font-medium hover:underline"><UserX /></Link>
             <Search />
             <Heart />
             <ShoppingCart />
